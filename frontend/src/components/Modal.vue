@@ -73,7 +73,7 @@ export default {
         },
 
         redeem() {
-            const apiURL = "http://localhost:3000";
+            const apiURL = "https://secret-hamlet-52217.herokuapp.com";
 
             axios
                 .post(apiURL + "/prizes/" + this.$route.params.id)

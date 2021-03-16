@@ -9,7 +9,7 @@ const url =
 
 const app = express();
 const port = 3000;
-
+app.set('port', (process.env.PORT || 5000));
 app.use(cors());
 app.use(express.static("dist"));
 
@@ -107,6 +107,6 @@ app.post("/prizes/:id", (req, res) => {
     }
 });
 
-app.listen(port, () =>
+app.listen(app.get('port'), () =>
     console.log(`Hello world app listening on port ${port}!`)
 );

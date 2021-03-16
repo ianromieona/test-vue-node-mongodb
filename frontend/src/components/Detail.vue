@@ -78,7 +78,7 @@ export default {
         },
 
         getDetail() {
-            const apiURL = "http://localhost:3000";
+            const apiURL = "https://secret-hamlet-52217.herokuapp.com";
 
             axios
                 .get(apiURL + "/prizes/" + this.$route.params.id)
