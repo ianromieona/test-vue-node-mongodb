@@ -1,0 +1,22 @@
+footer {
+    background-color: #151515;
+    text-align: center;
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 700;
+        li {
+            display: inline;
+            a {
+                color: #fff;
+            }
+            &:not(:last-child) {
+                border-right: 1px solid #fff;
+                padding-right: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+    padding: 4%;
+}

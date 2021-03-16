@@ -1,0 +1,25 @@
+.banner {
+    background-color: #1d74bb;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 4%;
+}
+
+.avatar {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    display: inline-block;
+}
+.navigation {
+    padding: 10px 0;
+    .profile-nav {
+        a {
+            color: #000;
+            display: inline-block;
+        }
+    }
+}
